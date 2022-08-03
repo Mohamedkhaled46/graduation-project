@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    background: #071d09;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(191, 196, 191);
+}
+
+.container form{
+    width: 670px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgb(96, 99, 96);
+    border-radius: 15px;
+    background: rgb(251, 255, 250);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+}
+
+.container form h1{
+    color: rgb(19, 18, 18);
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+.container form input{
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid rgb(14, 13, 13);
+}
+
+.container form input::placeholder{
+    color: rgb(104, 102, 102);
+}
+
+.container form #name,
+.container form #ID,
+.container form #mobile,
+.container form #department{
+    margin-left: 20px;
+}
+
+.container form h4{
+    color: rgb(7, 7, 7);
+    font-weight: 500;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.container form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(7, 7, 7);
+    color: rgb(8, 8, 8);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194,194,194,0.713);
+}
+
+.container form #button{
+    border: none;
+    background: rgb(13, 168, 29);
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(253, 252, 252);
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.container form #button:hover{
+    opacity: 0.7;
+}
+
+footer{
+    color: rgb(15, 15, 15);
+    font-weight: 500;
+    width: 600px;
+    margin-top: 20px;
+
+}
+input[type=checkbox] + label {
+    display: block;
+    margin: 0.2em;
+    cursor: pointer;
+    padding: 0.2em;
+  }
+  
+  input[type=checkbox] {
+    display: none;
+  }
+  
+  input[type=checkbox] + label:before {
+    content: "\2714";
+    border: 0.1em solid #000;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    margin-right: 0.2em;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .2s;
+  }
+  
+  input[type=checkbox] + label:active:before {
+    transform: scale(0);
+  }
+  
+  input[type=checkbox]:checked + label:before {
+    background-color: rgb(36, 196, 70);
+    border-color: rgb(36, 196, 70);
+    color: white;
+  }
+  
+  input[type=checkbox]:disabled + label:before {
+    transform: scale(1);
+    border-color: #aaa;
+  }
+  
+  input[type=checkbox]:checked:disabled + label:before {
+    transform: scale(1);
+    background-color: #bfb;
+    border-color: #bfb;
+  }
+
